@@ -19,9 +19,6 @@ class Baseballplayer{
 	String name;
 	double battingAverage;
 	int homeRus;
-	double newBattingAverage;
-	int newHomeRuns;
-	
 	
 	static int playerCount = 0; // 생성된 선수의 총 수 
 	// 타자가 칠 때마다 ++ 해주면 될듯
@@ -39,11 +36,8 @@ class Baseballplayer{
 	}
 
 	
-
-	void updateStates(double newBattingAverage , int newHomeRuns) {
-		this.battingAverage = newBattingAverage;
-		this.homeRus = newHomeRuns;
-		
+	void updateStates(double newBattingAverage, int newHomeRuns) {
+		System.out.println(newBattingAverage + newHomeRuns);
 	}
 	
 	
@@ -73,11 +67,6 @@ public class MethodPractice {
 		
 		System.out.println("총 생성된 선수의 수 :" + Baseballplayer.playerCount);
 
-		player1.updateStates(0.0, 0);
-		System.out.println("업데이트 된 타율"+player1.battingAverage);
-		System.out.println("업데이트 된 홈런 수 "+ player1.homeRus);
-		
-		
 	}
 
 }

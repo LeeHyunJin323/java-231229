@@ -41,8 +41,8 @@ class Baseballplayer{
 	
 
 	void updateStates(double newBattingAverage , int newHomeRuns) {
-		this.battingAverage = newBattingAverage;
-		this.homeRus = newHomeRuns;
+		this.newBattingAverage = newBattingAverage;
+		this.newHomeRuns = newHomeRuns;
 		
 	}
 	
@@ -74,8 +74,7 @@ public class MethodPractice {
 		System.out.println("총 생성된 선수의 수 :" + Baseballplayer.playerCount);
 
 		player1.updateStates(0.0, 0);
-		System.out.println("업데이트 된 타율"+player1.battingAverage);
-		System.out.println("업데이트 된 홈런 수 "+ player1.homeRus);
+		System.out.println(player1.battingAverage);
 		
 		
 	}
