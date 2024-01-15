@@ -1,6 +1,6 @@
-package d_Chapter03;
+package h_Chapter07;
 
-public class b_Array02 {
+public class Z_Practice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
