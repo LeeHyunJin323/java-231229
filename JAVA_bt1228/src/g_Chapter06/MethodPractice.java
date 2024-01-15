@@ -31,12 +31,10 @@ class Baseballplayer{
 		this.battingAverage = battingAverage;
 		this.homeRus = homeRus;
 		
-		
-		
-	}
-	Baseballplayer() {
 		playerCount++;
+		
 	}
+
 
 	
 
@@ -55,28 +53,21 @@ public class MethodPractice {
 		// BaseballPlayer클래스로 야구선수 3명의 객체 생성
 		// 총 생성된 선수의 수를 출력
 		
-		Baseballplayer player1 = new Baseballplayer();
-		Baseballplayer player2 = new Baseballplayer();
-		Baseballplayer player3 = new Baseballplayer();
 		
-		player1.battingAverage = 0.257;
-		player2.battingAverage = 0.256;
-		player3.battingAverage = 0.258;
+		Baseballplayer player1 = new Baseballplayer("Hyun",0.257,3);
+		Baseballplayer player2 = new Baseballplayer("Ryu",0.256,7);
+		Baseballplayer player3 = new Baseballplayer("Jun",0.258,2);
+
 		
-		player1.homeRus = 3;
-		player2.homeRus = 7;
-		player3.homeRus = 2;
-		
-		System.out.println("첫번째 선수의 타율:"+player1.battingAverage+"홈런 수 :"+ player1.homeRus);
-		System.out.println("두번째 선수의 타율:"+player2.battingAverage+"홈런 수 :"+ player2.homeRus);
-		System.out.println("세번째 선수의 타율:"+player3.battingAverage+"홈런 수 :"+ player3.homeRus);
+		System.out.println("첫번째 선수"+ player1.name+"의 타율"+player1.battingAverage+"홈런 수 :"+ player1.homeRus);
+		System.out.println("두번째 선수"+ player2.name+"의 타율:"+player2.battingAverage+"홈런 수 :"+ player2.homeRus);
+		System.out.println("세번째 선수"+ player3.name+"의 타율:"+player3.battingAverage+"홈런 수 :"+ player3.homeRus);
 		
 		System.out.println("총 생성된 선수의 수 :" + Baseballplayer.playerCount);
 
 		player1.updateStates(0.0, 0);
-		System.out.println("업데이트 된 타율"+player1.battingAverage);
-		System.out.println("업데이트 된 홈런 수 "+ player1.homeRus);
-		
+	
+		System.out.println("업데이트 된 첫번째 선수"+ player1.name+"의 타율"+player1.battingAverage+"홈런 수 :"+ player1.homeRus);
 		
 	}
 
