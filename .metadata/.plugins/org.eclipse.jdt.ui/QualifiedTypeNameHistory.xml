@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="g_Chapter06.Example"/>
     <fullyQualifiedTypeName name="g_Chapter06.Baseballplayer"/>
     <fullyQualifiedTypeName name="g_Chapter06.Restaurant"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="h_Chapter07.Overriding"/>
+    <fullyQualifiedTypeName name="i_Chapter08.ChildClass.ProtectedClass"/>
 </qualifiedTypeNameHistroy>
