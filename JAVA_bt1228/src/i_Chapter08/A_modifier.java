@@ -30,12 +30,9 @@ import parentPackage.ParentClass;
 class PrivateClass extends ParentClass {
 	// 같은 클래스 내에서만 접근 가능한 private 멤버 변수
 	// 부모 클래스의 protected 필드에 접근
-	System.out.println(protectedField); 
 	
 	
 	// 부모 클래스의 private 필드에 접근
-	
-	protectedMethod();
 	
 	private int myField;
 	private void myMethod() {}
@@ -71,10 +68,11 @@ class ProtectedClass  {
 		System.out.println(protectedField);
 		
 		protectedMethod();
+		
 	}
 	
-
-	protectedMethod();
+}
+	
 }
 public class A_modifier {
 

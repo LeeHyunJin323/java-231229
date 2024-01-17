@@ -11,7 +11,11 @@
     <fullyQualifiedTypeName name="g_Chapter06.Example"/>
     <fullyQualifiedTypeName name="g_Chapter06.Baseballplayer"/>
     <fullyQualifiedTypeName name="g_Chapter06.Restaurant"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="h_Chapter07.Overriding"/>
     <fullyQualifiedTypeName name="i_Chapter08.ChildClass.ProtectedClass"/>
+    <fullyQualifiedTypeName name="i_Chapter08.AccessExample"/>
+    <fullyQualifiedTypeName name="j_Chapter09.Child"/>
+    <fullyQualifiedTypeName name="j_Chapter09.Parent"/>
+    <fullyQualifiedTypeName name="j_Chapter09.Vehicle"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
