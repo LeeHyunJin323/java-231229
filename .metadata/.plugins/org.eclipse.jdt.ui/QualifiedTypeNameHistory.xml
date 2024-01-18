@@ -17,5 +17,8 @@
     <fullyQualifiedTypeName name="j_Chapter09.Child"/>
     <fullyQualifiedTypeName name="j_Chapter09.Parent"/>
     <fullyQualifiedTypeName name="j_Chapter09.Vehicle"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleClass"/>
+    <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface"/>
+    <fullyQualifiedTypeName name="k_Chapter10.SocialApp"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
