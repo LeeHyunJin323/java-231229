@@ -9,25 +9,17 @@ package k_Chapter10;
 //printType라는 정적 메서드
 //"This is a type of fruit."
 
-
-
 interface Fruit{
 	String color(); // public abstract 생략되있음
-	// 추상 메소드
-	// 추상 메소드는에는 public abstract가 생략이 되있음
-	
 	
 	// 디폴트 메서드 
-	// 디폴트 메서드의 경우 public 이 생략이 되있음
 	default void describe() {
 		System.out.println("This is a fruit of color : " + color());
 	}
-		// 정적메소드
-	// 정적 메소드의 경우에는 public  생략이 되있음
-	// 상수의 경우에 public static final이 생략
-			static void printType() {
-				System.out.println("This is a type of fruit");
-			}
+		
+		static void printType() {
+			System.out.println("This is a type of fruit");
+		}
 	}
 
 // 인터페이스 구현
@@ -64,7 +56,6 @@ public class Z_Practice02 {
 		
 		
 		Fruit.printType();
-		// 정적 메소드이기 때문에 클래스에서 바로 선언한걸 보여줌 
 		
 	}
 }
