@@ -7,9 +7,9 @@ package k_Chapter10;
 interface ExampleInterface{
 	int EXAMPLE_VARIABLE = 10; // public, static , final
 	
-	void printVar();
+	void printVar(); // 추상메서드
 	
-	default void method() {
+	default void method() { // 디폴트 메서드
 		System.out.println("interface1");
 	}
 }
@@ -32,6 +32,8 @@ interface ExampleInterface2{
 // : >> 해당 클래스는 반드시 재정의해야 함
 class ExampleClass implements ExampleInterface , ExampleInterface2 {
 
+	// 두개의 인터페이스를 implements 
+	// , 후 추상메소드 구현부 작성
 	public void printVar() {
 		System.out.println(EXAMPLE_VARIABLE);
 	}
@@ -39,10 +41,11 @@ class ExampleClass implements ExampleInterface , ExampleInterface2 {
 	public void printVar2() {
 		System.out.println("다중 인터페이스 구현");
 	}
-	@Override
+	@Override 
      public void method() {
     	 System.out.println("Method, 중복되는 디폴트 메서드 ");
-     }
+     }// 상속된 인터페이스에 디폴트 메서드가 중복이 되기때문에 상속받은 클래스에서 
+	// 디폴트 값 재정의 ! 이 부분이 없으면 오류,
 }
 
 

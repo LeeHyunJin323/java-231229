@@ -66,5 +66,6 @@ public class Z_Practice02 {
 		Fruit.printType();
 		// 정적 메소드이기 때문에 클래스에서 바로 선언한걸 보여줌 
 		
+		
 	}
 }
