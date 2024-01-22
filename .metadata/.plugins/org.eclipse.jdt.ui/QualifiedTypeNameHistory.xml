@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="g_Chapter06.Calculator"/>
     <fullyQualifiedTypeName name="g_Chapter06.Example"/>
     <fullyQualifiedTypeName name="g_Chapter06.Baseballplayer"/>
@@ -20,5 +19,23 @@
     <fullyQualifiedTypeName name="k_Chapter10.ExampleClass"/>
     <fullyQualifiedTypeName name="k_Chapter10.ExampleInterface"/>
     <fullyQualifiedTypeName name="k_Chapter10.SocialApp"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Order.OrderDetail"/>
+    <fullyQualifiedTypeName name="l_Chapter11.House.Furniture"/>
+    <fullyQualifiedTypeName name="l_Chapter11.City.CityPlan"/>
+    <fullyQualifiedTypeName name="l_Chapter11.PocketBall.PoketMonster"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Restaurant"/>
+    <fullyQualifiedTypeName name="SpecialMenu"/>
+    <fullyQualifiedTypeName name="l_Chapter11.OnlineShoppingMall"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Animal.Heart"/>
+    <fullyQualifiedTypeName name="l_Chapter11.Car.Engine"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="m_Chapter12.CustomException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
