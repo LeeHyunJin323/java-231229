@@ -133,8 +133,11 @@ public class B_List {
 		String isFruit1 = "Orange";
 		String isFruit2 = "Strawberry";
 		
-		System.out.println(linkedlist.contains(isFruit1));
-		System.out.println(linkedlist.contains(isFruit2));
+		System.out.println(linkedlist.contains(isFruit1)); // true
+		System.out.println(linkedlist.contains(isFruit2)); // false
+		
+		// contains - 배열에 해당 요소가 포함되어 있는지 확인
+		
 		
 		
 
