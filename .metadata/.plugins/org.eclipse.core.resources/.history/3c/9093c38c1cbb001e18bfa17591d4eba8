@@ -1,0 +1,10 @@
+package p_Chapter15;
+
+public class A_IO01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
